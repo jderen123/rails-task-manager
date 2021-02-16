@@ -5,3 +5,4 @@
 <p> <%= @task.completed ? "This task is completed" : "This task is not completed" %> </p>
 
 <a href="/tasks">Back to list</a>
+<a href="/tasks/<%= @task.id %>/edit">Edit this task</a>
