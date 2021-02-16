@@ -1,9 +1,13 @@
 <h1> All Tasks </h1>
+<div class="indexcontainer">
 <% @tasks.each do |task|  %>
+<div class="contents">
 <input type="checkbox" <%= "checked" if task.completed  %>>
    <%= link_to task.title, task_path(task) %>
 
+   <i class="far fa-trash-alt"></i>
 
+</div>
 <% end %>
-
+</div>
 <a href="/tasks/new">+ Add a new Task</a>

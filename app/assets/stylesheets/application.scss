@@ -1,0 +1,17 @@
+@import "bootstrap/scss/bootstrap";
+
+.indexcontainer {
+display: flex;
+flex-direction: column;
+}
+
+body {
+  margin-left: 10px;
+}
+
+i {
+  color: #0375FF;
+}
+.show {
+  width: 45%;
+}
